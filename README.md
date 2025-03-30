@@ -9,8 +9,21 @@ An open-source Python tool for port scanning, packet sniffing, threat intelligen
 - 🔹 Malware Detection (YARA Rules)
 
 ## Installation & Usage
-1. Install dependencies:
-2. Run the tool:
+# Step 1: Install Dependencies
+ Run the following command to install required dependencies:
+ sudo apt update && sudo apt install -y nmap python3-pip
+
+# Step 2: Install Required Python Modules
+ Run the following command:
+ pip3 install python-nmap requests scapy yara-python
+
+# Step 3: Clone the GitHub Repository
+ git clone https://github.com/anujitha615/Threat-Analysis-Tool.git
+ cd Threat-Analysis-Tool
+
+# Step 4: Run the Tool
+ python3 threat_analysis.py
+
 
 
 ## Contribute
