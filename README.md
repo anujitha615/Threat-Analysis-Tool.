@@ -1,34 +1,86 @@
-# Threat-Analysis-Tool.
-An open-source Python tool for port scanning, packet sniffing, threat intelligence, and malware detection.
+# Threat Analysis Tool
 
+## Overview
+Threat Analysis Tool is a powerful cybersecurity tool designed to help security professionals analyze potential threats. It includes functionalities such as port scanning, packet sniffing, IP threat intelligence lookup, and malware detection using YARA rules.
 
 ## Features
-- 🔹 Port Scanner (Uses Nmap)
-- 🔹 Packet Sniffer (Uses Scapy)
-- 🔹 Threat Intelligence Lookup (Uses VirusTotal API)
-- 🔹 Malware Detection (YARA Rules)
+- 🔍 **Port Scanning**: Scan for open ports on a target system and identify running services.
+- 📡 **Packet Sniffing**: Monitor network packets on a selected network interface.
+- 🚨 **IP Threat Intelligence Lookup**: Check if an IP address is associated with malicious activity using VirusTotal API.
+- 🦠 **Malware Detection**: Scan files for malware using YARA rules.
+- 🌍 **Custom Watermark**: Displays an encrypted globe with the author's name as a watermark.
 
-## Installation & Usage
-# Step 1: Install Dependencies
- Run the following command to install required dependencies:
- sudo apt update && sudo apt install -y nmap python3-pip
+## Installation
+### Prerequisites
+- Python 3.8+
+- Kali Linux / Windows
+- Virtual Environment (Recommended)
+- VirusTotal API Key (for threat intelligence lookup)
 
-# Step 2: Install Required Python Modules
- Run the following command:
- pip3 install python-nmap requests scapy yara-python
+### Setup
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/yourusername/threat-analysis-tool.git
+   cd threat-analysis-tool
+   ```
 
-# Step 3: Clone the GitHub Repository
- git clone https://github.com/anujitha615/Threat-Analysis-Tool.git
- cd Threat-Analysis-Tool
+2. **Create a Virtual Environment:**
+   ```sh
+   python -m venv myenv
+   source myenv/bin/activate  # Linux/macOS
+   myenv\Scripts\activate  # Windows
+   ```
 
-# Step 4: Run the Tool
- python3 threat_analysis.py
+3. **Install Required Dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
+4. **Set Up Environment Variables:**
+   Create a `.env` file and add your VirusTotal API Key:
+   ```sh
+   echo "VIRUSTOTAL_API_KEY=your_api_key" > .env
+   ```
 
+## Usage
+Run the tool using:
+```sh
+python threat_analyzer.py
+```
+You will be presented with a menu:
+```
+1. Scan Ports
+2. Sniff Packets
+3. Check IP Threat
+4. Scan for Malware
+5. Exit
+```
+Select an option and follow the on-screen instructions.
 
-## Contribute
-Feel free to fork and improve this project! 🚀
+## Requirements
+The tool requires the following Python packages:
+- `nmap`
+- `requests`
+- `scapy`
+- `yara-python`
+- `python-dotenv`
+- `tabulate`
+
+Install them using:
+```sh
+pip install -r requirements.txt
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-MIT License.
-   
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed by **[Your Name]**
+GitHub: [Your GitHub Profile](https://github.com/yourusername)
+
+## Disclaimer
+This tool is for educational and ethical hacking purposes only. Use it responsibly and only with proper authorization.
+
