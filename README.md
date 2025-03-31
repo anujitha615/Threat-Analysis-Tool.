@@ -78,7 +78,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-Developed by **ANUJITH A**
+Developed by **ANUJITH A** GitHub profile: https://github.com/anujitha615/
+
 GitHub: [Your GitHub Profile](https://github.com/yourusername)
 
 ## Disclaimer
