@@ -1,4 +1,6 @@
-python-nmap
+nmap
 requests
 scapy
 yara-python
+python-dotenv
+tabulate
