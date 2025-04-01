@@ -1,4 +1,4 @@
-nmap
+python-nmap
 requests
 scapy
 yara-python
