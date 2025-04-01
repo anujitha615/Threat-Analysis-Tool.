@@ -45,7 +45,7 @@ Threat Analysis Tool is a powerful cybersecurity tool designed to help security 
 ## Usage
 Run the tool using:
 ```sh
-python threat_analyzer.py
+python3 threat-analysis-tool.py
 ```
 You will be presented with a menu:
 ```
