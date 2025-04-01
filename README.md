@@ -20,7 +20,7 @@ Threat Analysis Tool is a powerful cybersecurity tool designed to help security 
 ### Setup
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/anujitha615/threat-analysis-tool.git
+   git clone https://github.com/anujitha615/threat-analysis-tool..git
    cd threat-analysis-tool
    ```
 
