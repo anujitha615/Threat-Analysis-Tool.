@@ -17,6 +17,16 @@ Threat Analysis Tool is a powerful cybersecurity tool designed to help security 
 - Virtual Environment (Recommended)
 - VirusTotal API Key (for threat intelligence lookup)
 
+### VirusTotal API Key Setup
+- Go to https://www.virustotal.com/gui/home/
+- signup (if don't have an account)
+- On clicking the profile icon you will see API Key
+- Copy the key which you got
+- Go to terminal
+- Create new file by entering echo "VIRUSTOTAL_API_KEY=ypur_api_key" > .env
+- Replace "your_api_key" with your actual API KEY
+- Now save it.
+
 ### Setup
 1. **Clone the Repository:**
    ```sh
