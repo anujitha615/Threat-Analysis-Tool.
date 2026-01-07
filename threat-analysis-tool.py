@@ -1,7 +1,7 @@
 """
 Threat Analysis Tool
-Author: [Your Name]
-GitHub: [Your GitHub URL]
+Author: Anujith A
+GitHub: https://github.com/anujitha615/Threat-Analysis-Tool.
 License: MIT
 Description: This tool provides functionalities for port scanning, packet sniffing, threat intelligence lookup, and malware detection using YARA.
 
@@ -173,3 +173,4 @@ if __name__ == "__main__":
             break
         else:
             print("⚠️ Invalid choice. Please select a valid option.")
+
